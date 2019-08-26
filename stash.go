@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ae6rt/retry"
+	"github.com/ae6rt/decap/web/retry"
 )
 
 var Log *log.Logger = log.New(os.Stdout, "", log.Ldate|log.Ltime|log.Lshortfile)
